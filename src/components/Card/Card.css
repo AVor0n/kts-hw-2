@@ -1,0 +1,41 @@
+.card {
+    box-sizing: border-box;
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #7E7E7E;
+    min-width: 350px;
+    width: fit-content;
+    height: fit-content;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 6px;
+    padding: 11px;
+    display: flex;
+    gap: 12px;
+    cursor: pointer;
+}
+
+.card_image {
+    border-radius: 50%;
+    background-color: #FF5555;
+    object-fit: contain;
+}
+
+.card_desc{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin: 11px 0;
+}
+
+.card_title {
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}

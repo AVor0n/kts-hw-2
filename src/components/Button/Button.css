@@ -1,0 +1,45 @@
+.button {
+    box-sizing: border-box;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    font-family: 'Roboto' sans-serif;
+    padding: 14px;
+    min-width: 150px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: fit-content;
+}
+
+.button:not(:disabled):hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.button_disabled:disabled {
+    background-color: #D9D9D9;
+    color: #fff;
+    border-color: #D9D9D9;
+}
+
+.button_color-primary {
+    background-color: #FF5555;
+    border-color: #FF5555;
+    color: #FFF;
+}
+
+.button_color-secondary {
+    background-color: #FFF;
+    border-color: #FF5555;
+    color: #FF5555;
+}
+
+.button .loader:after {
+    border-color: #fff;
+    border-right-color: transparent;
+}

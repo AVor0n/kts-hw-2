@@ -1,0 +1,17 @@
+.select_value{
+    height: 30px;
+    width: 120px;
+    border: 1px solid orangered;
+}
+.select_options{
+    padding: 0;
+    margin: 0;
+}
+.select_option{
+    list-style: none;
+    border: 1px solid pink;
+    margin: 0;
+}
+.select_option-selected{
+    background-color: aqua;
+}
